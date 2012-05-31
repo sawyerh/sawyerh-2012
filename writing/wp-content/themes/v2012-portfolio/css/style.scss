@@ -56,6 +56,23 @@ p{
 	}
 }
 
+blockquote{
+	font-family: $serif;
+	font-size: 24px;
+	font-style: italic;
+	text-align: center;
+	margin: 1.2em 20px;
+	color: $faded_text;
+
+	p{
+		margin-left: 0 !important;
+	}
+}
+
+ul li{
+	list-style: square;
+}
+
 //	Structure
 // **********************************************************************
 .wrap{
@@ -320,6 +337,14 @@ html.no-svgclippaths{
 	}
 }
 
+article.entry{
+	li{
+		color: $faded_text;
+		margin-bottom: 5px;
+		font-size: 18px;
+	}
+}
+
 .main{
 	@include clearfix;
 	margin: 50px auto;
@@ -521,7 +546,7 @@ body.about{
 
 .mixtapes{
 	@include clearfix;
-	
+
 	a{
 		text-decoration: none;
 		display: inline-block;
