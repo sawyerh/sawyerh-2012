@@ -520,6 +520,8 @@ body.about{
 }
 
 .mixtapes{
+	@include clearfix;
+	
 	a{
 		text-decoration: none;
 		display: inline-block;
