@@ -1,1 +1,7 @@
 Redirect /portfolio/ira-glass-quote/ http://sawyerhollenshead.com/v2011/portfolio/ira-glass-quote/
+
+# Change /about.html to /about
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)\.html$ /$1 [L,R=301] 
