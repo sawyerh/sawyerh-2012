@@ -13,8 +13,9 @@
             <h1><a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a></h1>
             <time class="postdate"><?php the_ID(); ?>. Published  <?php the_time('F j, Y') ?></time>
 
-            <?php the_content('Continue Reading &raquo;'); ?>
-
+            <div class="post-content">
+                <?php the_content('Continue Reading &raquo;'); ?>
+            </div>
             <?php edit_post_link('- Edit'); ?>
         </article>
 

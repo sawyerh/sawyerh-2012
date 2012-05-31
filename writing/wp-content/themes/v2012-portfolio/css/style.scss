@@ -73,6 +73,14 @@ ul li{
 	list-style: square;
 }
 
+code, pre{
+	font-size: 12px;
+	line-height: 1.5;
+	display: inline-block;
+	background: rgba(#fff, 0.1);
+	padding: 10px;
+}
+
 //	Structure
 // **********************************************************************
 .wrap{
@@ -339,9 +347,21 @@ html.no-svgclippaths{
 
 article.entry{
 	li{
-		color: $faded_text;
+		color: darken(#fff, 20%);
 		margin-bottom: 5px;
 		font-size: 18px;
+	}
+}
+
+.post-content{
+	a{
+		color: $yellow;
+		text-decoration: none;
+
+		&:hover{
+			background: $yellow;
+			color: $background;
+		}
 	}
 }
 
@@ -690,6 +710,26 @@ body.blog{
 	img{
 		vertical-align: bottom;
 	}
+}
+
+
+.alignleft{
+	float: left;
+	margin: 0 20px 20px 0;
+}
+.alignright{
+	float: right;
+	margin: 0 0 20px 20px;
+}
+.aligncenter{
+	display: block;
+	margin: 20px auto;
+}
+
+.wp-caption-text{
+	font-size: 12px;
+	color: $faded_text;
+	margin-left: 0 !important;
 }
 
 @import 'media-queries';
