@@ -10,7 +10,7 @@
 	
 	<link rel="profile" href="http://gmpg.org/xfn/11" />
 	<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
-	<link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css" media="screen" />
+	<link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>?v=20120531151000" type="text/css" media="screen" />
 	
 	<?php wp_head(); ?>
 
@@ -42,7 +42,7 @@
                     <li><a href="http://sawyerhollenshead.com">Work</a></li>
                     <li<?php if(is_home()){ ?> class="current-menu-item"<?php } ?>><a href="<?php echo home_url( '/' ); ?>">Writing</a></li>
                     <li><a href="http://sawyerhollenshead.com/about">About</a></li>
-                    <li class="twitter"><a href="http://twitter.com/sawyerh" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/images/twitter.png" alt="Twitter" /></a></li>
+                    <li class="twitter"><a href="http://twitter.com/sawyerh" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/images/twitter.png" alt="Twitter" width="16" height="14" /></a></li>
                 </ul>
             </nav>
         </div>
