@@ -113,6 +113,11 @@ header.primary{
 				pointer-events: none;
 			}
 		}
+
+		&.twitter{
+			position: relative;
+			top: 2px;
+		}
 	}
 
 	a{
@@ -397,6 +402,10 @@ body.about{
 
 			&.dwaiter{
 				border-color: #78ac13;
+			}
+
+			&.freelance{
+				border-color: #e7293b;
 			}
 
 			h1, h2{
