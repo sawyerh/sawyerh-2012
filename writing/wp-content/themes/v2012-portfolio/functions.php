@@ -25,17 +25,6 @@ function shaken_setup() {
 		// Set featured image sizes
 		add_theme_support('post-thumbnails');
 			set_post_thumbnail_size(600, 800);
-		
-	// Actions
-		
-		/* Add your nav menus function to the 'init' action hook. */
-		add_action( 'init', 'shaken_register_menus' );
-		
-		/* Add your sidebars function to the 'widgets_init' action hook. */
-		add_action( 'widgets_init', 'shaken_register_sidebars' );
-		
-		// Threaded comments
-		add_action('get_header', 'shaken_enable_threaded_comments');
 	
 	// Filters
 		
