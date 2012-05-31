@@ -1,4 +1,4 @@
-.htaccess
+writing/.htaccess
 wp-*.php
 xmlrpc.php
 wp-admin/
