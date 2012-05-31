@@ -36,12 +36,12 @@
 
 	<header class="primary">
         <div class="wrap">
-            <h1><a href="http://sawyerh.com">Sawyer. <span>Designer. Front-end developer.</span></a></h1>
+            <h1><a href="http://sawyerhollenshead.com">Sawyer. <span>Designer. Front-end developer.</span></a></h1>
             <nav>
                 <ul>
-                    <li><a href="http://sawyerh.com">Work</a></li>
-                    <li class="current-menu-item"><a href="<?php echo home_url( '/' ); ?>">Writing</a></li>
-                    <li><a href="http://sawyerh.com/about">About</a></li>
+                    <li><a href="http://sawyerhollenshead.com">Work</a></li>
+                    <li<?php if(is_home()){ ?> class="current-menu-item"<?php } ?>><a href="<?php echo home_url( '/' ); ?>">Writing</a></li>
+                    <li><a href="http://sawyerhollenshead.com/about">About</a></li>
                     <li class="twitter"><a href="http://twitter.com/sawyerh" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/images/twitter.png" alt="Twitter" /></a></li>
                 </ul>
             </nav>
