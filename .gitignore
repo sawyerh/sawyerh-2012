@@ -15,3 +15,7 @@ sitemap.xml
 sitemap.xml.gz
 readme.html
 license.txt
+bucket/
+v2011/
+dont-delete/
+.DS_Store
