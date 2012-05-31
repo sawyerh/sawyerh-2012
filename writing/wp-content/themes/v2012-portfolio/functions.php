@@ -24,7 +24,7 @@ function shaken_setup() {
 		
 		// Set featured image sizes
 		add_theme_support('post-thumbnails');
-			set_post_thumbnail_size(600, 800);
+			set_post_thumbnail_size(900, 1900);
 	
 	// Filters
 		

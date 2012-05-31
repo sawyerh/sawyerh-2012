@@ -74,11 +74,14 @@ ul li{
 }
 
 code, pre{
-	font-size: 12px;
+	font-size: 14px;
 	line-height: 1.5;
-	display: inline-block;
 	background: rgba(#fff, 0.1);
-	padding: 10px;
+	padding: 3px;
+}
+
+.gist-meta{
+	font-size: 11px !important;
 }
 
 //	Structure
@@ -616,7 +619,7 @@ body.about{
 		margin-bottom: 10px;
 	}
 
-	h3, p, time, ul, ol{
+	h3, p, time, ul, ol, .gist{
 		margin-left: 20px;
 	}
 
