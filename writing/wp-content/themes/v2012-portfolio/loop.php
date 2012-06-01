@@ -16,7 +16,7 @@
             <div class="post-content">
                 <?php the_content('Continue Reading &raquo;'); ?>
             </div>
-            <?php edit_post_link('- Edit'); ?>
+            <?php edit_post_link('Edit', '<p>', '</p>'); ?>
         </article>
 
     <?php endwhile; ?>
