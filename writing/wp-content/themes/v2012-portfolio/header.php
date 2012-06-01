@@ -17,7 +17,7 @@
 	<script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/modernizr.js"></script>
     <script type="text/javascript" src="http://use.typekit.com/ggb1aqu.js"></script>
     <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
-
+    <script type="text/javascript">var _sf_startpt=(new Date()).getTime()</script>
     <script type="text/javascript">
 
 	  var _gaq = _gaq || [];
