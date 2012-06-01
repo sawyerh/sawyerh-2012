@@ -53,24 +53,19 @@
 
         <div class="svg-image">
         <svg class="svg-row" width="100%" height="415px" viewBox="0 0 1248 270" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
-           <def>
-               <polygon points="312,0 156,270 0,0" id="down" />
-               <polygon points="0,270 156,0 312,270" id="up" />
-           </def>
-           
            <!-- Place clipPath in group so it works in Safari. Placing in 'def' doesn't work across all browsers -->
            <g>
                <clipPath id="image">
-                    <use xlink:href="#down" />
-                    <use xlink:href="#up" x="161" />
+                    <polygon points="312,0 156,270 0,0" />
+                    <polygon points="0,270 156,0 312,270" transform="translate(161)" />
                 </clipPath>
 
                 <clipPath id="downMask">
-                    <use xlink:href="#down" />
+                    <polygon points="312,0 156,270 0,0" />
                 </clipPath>
 
                 <clipPath id="upMask">
-                    <use xlink:href="#up" />
+                    <polygon points="0,270 156,0 312,270" />
                 </clipPath>
            </g>
            
