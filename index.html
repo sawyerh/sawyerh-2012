@@ -58,27 +58,26 @@
             </div>
             <div class="svg-image">
             <svg class="svg-row" width="100%" height="540px" viewBox="0 0 1248 540" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
-               <def>
+               <defs>
                    <polygon points="624,0 312,540 0,0" id="down" />
                    <polygon points="0,540 312,0 624,540" id="up" />
-               </def>
+               </defs>
                
                <!-- Place clipPath in group so it works in Safari. Placing in 'def' doesn't work across all browsers -->
                <g>
                    <clipPath id="image">
-                        <use xlink:href="#down" />
-                        <use xlink:href="#up" x="322" />
+                        <polygon points="624,0 312,540 0,0" />
+                        <polygon points="0,540 312,0 624,540" transform="translate(322)" />
                     </clipPath>
 
                     <clipPath id="downMask">
-                        <use xlink:href="#down" />
+                        <polygon points="624,0 312,540 0,0" />
                     </clipPath>
 
                     <clipPath id="upMask">
-                        <use xlink:href="#up" />
+                        <polygon points="0,540 312,0 624,540" />
                     </clipPath>
                </g>
-               
                <!-- Translate (half of rx) to position the center piece in the center -->
                <g transform="translate(312, 0)">
 
@@ -91,7 +90,7 @@
                     <image transform="translate(-966,0)" clip-path="url(#upMask)" height="100%" width="76%" xlink:href="writing/wp-content/themes/v2012-portfolio/images/ow-bg.jpg" preserveAspectRatio='xMidYMin slice' />
 
                     <!-- Info block, pointing up -->
-                    <use xlink:href="#up" transform="translate(-322,0)" /> <!-- left -->
+                    <polygon points="0,540 312,0 624,540" transform="translate(-322,0)" /> <!-- left -->
 
                     <!-- Center, pointing down -->
                     <image clip-path="url(#image)" height="100%" width="76%" xlink:href="writing/wp-content/themes/v2012-portfolio/images/ow.png" preserveAspectRatio='xMidYMin slice' />
@@ -127,7 +126,7 @@
                     <image transform="translate(-966,0)" clip-path="url(#upMask)" height="100%" width="76%" xlink:href="writing/wp-content/themes/v2012-portfolio/images/dropmark-bg.jpg" preserveAspectRatio='xMidYMin slice' />
 
                     <!-- Info block, pointing up -->
-                    <use xlink:href="#up" transform="translate(-322,0)" /> <!-- left -->
+                    <polygon points="0,540 312,0 624,540" transform="translate(-322,0)" /> <!-- left -->
 
                     <!-- Center, pointing down -->
                     <image clip-path="url(#image)" height="100%" width="76%" xlink:href="writing/wp-content/themes/v2012-portfolio/images/dropmark.jpg" preserveAspectRatio='xMidYMin slice' />
@@ -163,7 +162,7 @@
                     <image transform="translate(-966,0)" clip-path="url(#upMask)" height="100%" width="76%" xlink:href="writing/wp-content/themes/v2012-portfolio/images/audiotheme-bg.jpg" preserveAspectRatio='xMidYMin slice' />
 
                     <!-- Info block, pointing up -->
-                    <use xlink:href="#up" transform="translate(-322,0)" /> <!-- left -->
+                    <polygon points="0,540 312,0 624,540" transform="translate(-322,0)" /> <!-- left -->
 
                     <!-- Center, pointing down -->
                     <image clip-path="url(#image)" height="100%" width="76%" xlink:href="writing/wp-content/themes/v2012-portfolio/images/audiotheme.jpg" preserveAspectRatio='xMidYMin slice' />
@@ -198,7 +197,7 @@
                     <image transform="translate(-966,0)" clip-path="url(#upMask)" height="100%" width="76%" xlink:href="writing/wp-content/themes/v2012-portfolio/images/dwaiter-bg.jpg" preserveAspectRatio='xMidYMin slice' />
 
                     <!-- Info block, pointing up -->
-                    <use xlink:href="#up" transform="translate(-322,0)" /> <!-- left -->
+                    <polygon points="0,540 312,0 624,540" transform="translate(-322,0)" /> <!-- left -->
 
                     <!-- Center, pointing down -->
                     <image clip-path="url(#image)" height="100%" width="76%" xlink:href="writing/wp-content/themes/v2012-portfolio/images/dwaiter.jpg" preserveAspectRatio='xMidYMin slice' />
